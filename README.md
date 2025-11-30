@@ -1,16 +1,40 @@
-# projects_two
+# Assignment 2 – Flutter App UI
 
-A new Flutter project.
+This repository contains the solution for **Assignment 2 (Flutter UI)** of the IUB course.  
+The task was to build a 4‑page banking application UI using Flutter with a bottom navigation bar and `PageView`.
 
-## Getting Started
+## Student Information
 
-This project is a starting point for a Flutter application.
+- **Name:** Samnoon Ahmed  
+- **Student ID:** 2022135  
+- **Email:** your.iub.email@iub.edu  
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Bottom navigation bar with 4 tabs (Home, Reports, Cards, Profile).
+- **Page 1 – Home:**  
+  - Total balance card with savings and last 30 days summary.  
+  - Quick action buttons (Transfer, Pay Bills, Invest).  
+  - Recent transactions list with colored amounts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Page 2 – Reports:**  
+  - Monthly spending report card with total expenses.  
+  - Spending breakdown using progress bars for different categories.
+
+- **Page 3 – Cards:**  
+  - Main credit/debit card UI with gradient background.  
+  - Card actions (Block, Details, Limit).  
+  - Linked accounts section.
+
+- **Page 4 – Profile:**  
+  - User avatar with initials.  
+  - Cards showing Name, Student ID, Email, and Bio/Story.
+
+## How to Run
+flutter pub get
+flutter run -d chrome # or any connected emulator/device
+
+## Notes
+
+- UI is implemented to match the provided Figma design with ~80% similarity.  
+- Icons and colors are chosen from the default Flutter `Icons` and Material color palette where exact matches were not available.
