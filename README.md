@@ -7,7 +7,7 @@ The task was to build a 4‑page banking application UI using Flutter with a bot
 
 - **Name:** Samnoon Ahmed  
 - **Student ID:** 2022135  
-- **Email:** your.iub.email@iub.edu  
+- **Email:** 2022135@iub.edu.bd 
 
 ## Features
 
